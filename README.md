@@ -1,5 +1,7 @@
 # Task Management Web App
 
+<img width="1440" alt="Screenshot 2023-08-27 at 11 35 19 AM" src="https://github.com/0xJeu/To-Do-List/assets/129988927/eefeb4d4-9b6d-433b-be9b-dac86573d4ea">
+
 This repository contains a simple web application built using Flask, a micro web framework for Python. The application serves as a task management system where users can create, view, and mark tasks as complete.
 
 ## Getting Started
