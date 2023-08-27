@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Task Manager{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1>Task Manager</h1>
+
+    <h2>Create Task</h2>
+    <form id="create-form" method="post" action="/tasks">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title:</label>
+            <input type="text" id="title" name="title" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description:</label>
+            <textarea id="description" name="description" class="form-control" required></textarea>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" id="completed" name="completed" class="form-check-input">
+            <label for="completed" class="form-check-label">Completed</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Task</button>
+    </form>
+
+    <h2>Tasks</h2>
+    <ul id="task-list" class="list-group"></ul>
+
+    <!-- Add the feedback message div -->
+    <div id="message"></div>
+</div>
+{% endblock %}
