@@ -65,5 +65,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 **Note:** This README provides a general overview of the application and its functionality. For detailed instructions on using specific API endpoints and interacting with the application, refer to the API documentation or inline comments in the source code.
-
-For any questions or support, please contact [your_email@example.com](mailto:your_email@example.com).
